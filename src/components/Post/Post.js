@@ -4,14 +4,14 @@ import Pts from './Pts';
 const Post = () => {
     const [pst,setPst]=useState([]);
     useEffect(() =>{
-        fetch('https://jsonplaceholder.typicode.com/posts')
+        fetch('data.json')
         .then(res=>res.json())
         .then(data=>setPst(data))
     },[])
     return (
         <div>
             {
-                pst.map(pt=><Pts id={pt.id} title={pt.title} body={pt.body} ></Pts>)
+                pst.map(pt=><Pts id={pt.id} name={pt.name} gender={pt.gender} email={pt.email} ></Pts>)
             }
         </div>
     );

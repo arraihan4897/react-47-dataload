@@ -1,0 +1,38 @@
+[
+    {
+      "id": 0,
+      "name": "Marguerite Tyson",
+      "gender": "female",
+      "email": "margueritetyson@zboo.com"
+    },
+    {
+      "id": 1,
+      "name": "Rachael Lyons",
+      "gender": "female",
+      "email": "rachaellyons@zboo.com"
+    },
+    {
+      "id": 2,
+      "name": "Holden Barrera",
+      "gender": "male",
+      "email": "holdenbarrera@zboo.com"
+    },
+    {
+      "id": 3,
+      "name": "Calhoun Peterson",
+      "gender": "male",
+      "email": "calhounpeterson@zboo.com"
+    },
+    {
+      "id": 4,
+      "name": "Sofia Lynn",
+      "gender": "female",
+      "email": "sofialynn@zboo.com"
+    },
+    {
+      "id": 5,
+      "name": "Garrison Nunez",
+      "gender": "male",
+      "email": "garrisonnunez@zboo.com"
+    }
+  ]
