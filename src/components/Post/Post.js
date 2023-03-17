@@ -11,7 +11,7 @@ const Post = () => {
     return (
         <div>
             {
-                pst.map(pt=><Pts id={pt.id} name={pt.name} gender={pt.gender} email={pt.email} ></Pts>)
+                pst.map(pt=><Pts pt={pt} key={pt.id}></Pts>)
             }
         </div>
     );
