@@ -12,7 +12,7 @@ const Counmtriez = () => {
         <div>
             {
                 countriez.map(country=><Country
-                    population={country.population} name={country.name.common}></Country>)
+                    population={country.population} key={country.name.common} name={country.name.common}></Country>)
             }
             
         </div>

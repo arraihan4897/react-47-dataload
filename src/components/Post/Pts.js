@@ -1,9 +1,11 @@
 import React from 'react';
+import {addToDB} from '../Utilities/Fakedb'
 
 const Pts = (props) => {
     const {name,id,email,gender} =props.pt;
-    const AddToCart=(id,name,gender,email)=>{
-        console.log('add to cart',id,name,gender,email);
+    const AddToCart=(id)=>{
+        addToDB(id)
+        // console.log('add to cart',id,name,gender,email);
 
     }
     // const addToCartWithParameter=()=>AddToCart(id)
@@ -14,7 +16,7 @@ const Pts = (props) => {
 
             <p>{email}</p>
             <p>{gender}</p>
-            <button onClick={()=>AddToCart(id,name,gender,email)}>Add to cart</button>
+            <button onClick={()=>AddToCart(id)}>Add to cart</button>
             {/* <button onClick={addToCartWithParameter}>Add to cart with param</button> */}
             
         </div>
